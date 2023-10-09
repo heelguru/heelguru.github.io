@@ -1,0 +1,102 @@
+baseURL: "https://rufrancos.org/" 
+title: Hector Rufrancos
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: research
+          url: /research/
+          weight: 1
+        - name: teaching
+          url: /teaching/
+          weight: 2
+        - name: cv
+          url: /cv/
+          weight: 3
+
+params:
+    description: "I am an Associate Professor (Senior Lecturer) in Economics at the University of Stirling School of Management. I am the Undergraduate Economics Programme Director, PhD convenor for the Economics Division, SGPE Summer School Director, and Member of the SES council. I am an economist that uses the tools of applied econometrics to study key issues surrounding a number of fields including labour, development economics, political economy and economic history."
+    author: Hector Rufrancos
+    googleAnalyticsID: "G-WMXYMP9HSZ"
+    DateFormat: "January 2006"
+    defaultTheme: dark
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Hector Rufrancos
+          subtitle: "I am an Associate Professor (Senior Lecturer) in Economics at the University of Stirling School of Management. <p>&nbsp;<p> I am the Undergraduate Economics Programme Director, PhD convenor for the Economics Division, SGPE Summer School Director, and Member of the SES council. <p>&nbsp;<p>I am an economist that uses the tools of applied econometrics to study key issues surrounding a number of fields including labour, development economics, political economy and economic history. I am interested in answering questions related to these fields using large or complex datasets (big data), often using administrative data, but also combining this with extensive shoe-leather collection methods. <p>&nbsp;<p> My research agenda seeks to use the tools of the applied econometrician to shine a light on how policy, institutions and individuals interact and how this has implications for the wellbeing of individuals and households. My work covers two broad headings <p>1. Living Standards & Well-being and 2. Institutions & Political Economy"
+          imageUrl: "/picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Hector Rufrancos
+          buttons:
+            - name: research
+              url: /research/
+            - name: teaching
+              url: /teaching/
+            - name: cv
+              url: /cv/
+            - name: Keywords
+              url: /tags/
+
+    socialIcons:
+        - name: CV
+          url: /cv.pdf
+        - name: Email
+          url: mailto:hector.rufrancos@stir.ac.uk
+        - name: Location
+          url: /location/
+        - name: Office Hours
+          url: /officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=eoJ9cIsAAAAJ
+        - name: Twitter
+          url: https://www.x.com/heelguru
+        - name: GitHub
+          url: https://bitbucket.org/heelguru/workspace/overview/
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Hector Rufrancos"
+      icon: /favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
