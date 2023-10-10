@@ -1,4 +1,4 @@
-# rufrancos.github.io
+# heelguru.github.io
 This repository contains the source code to Hector Rufrancos's website, which is available at https://rufrancos.org. The website is created with Hugo and a modified version of the PaperMod theme. The code might be helpful to anyone who wishes to learn about Hugo or to recreate specific features of the website.
 
 The repository also contains all the research material and teaching material hosted on the website. The material is stored in the static folder (mostly as PDF files) and in the content folder (mostly as Markdown files). The material can easily be batch downloaded from these folders.
