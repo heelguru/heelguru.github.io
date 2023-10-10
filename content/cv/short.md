@@ -1,9 +1,9 @@
 ---
 title: "Hector Rufrancos CV" 
 date: 2023-09-11
-url: /cv/
+url: /cvshort/
 aliases:
-    - /cv.html
+    - /cvshort.html
 
     
 tags: ["CV","vitae"]
