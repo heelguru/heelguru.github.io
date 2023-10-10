@@ -11,13 +11,13 @@ taxonomies:
 
 menu:
     main:
-        - name: research
+        - name: Research
           url: /research/
           weight: 1
-        - name: teaching
+        - name: Teaching
           url: /teaching/
           weight: 2
-        - name: cv
+        - name: CV
           url: /cv/
           weight: 3
 
@@ -47,17 +47,17 @@ params:
     profileMode:
           enabled: true
           title: Hector Rufrancos
-          subtitle: "I am an Associate Professor (Senior Lecturer) in Economics at the University of Stirling School of Management. <p>&nbsp;<p> I am the Undergraduate Economics Programme Director, PhD convenor for the Economics Division, SGPE Summer School Director, and Member of the SES council. <p>&nbsp;<p>I am an economist that uses the tools of applied econometrics to study key issues surrounding a number of fields including labour, development economics, political economy and economic history. I am interested in answering questions related to these fields using large or complex datasets (big data), often using administrative data, but also combining this with extensive shoe-leather collection methods. <p>&nbsp;<p> My research agenda seeks to use the tools of the applied econometrician to shine a light on how policy, institutions and individuals interact and how this has implications for the wellbeing of individuals and households. My work covers two broad headings <p>1. Living Standards & Well-being and 2. Institutions & Political Economy"
+          subtitle: "I am an Associate Professor (Senior Lecturer) in Economics at the University of Stirling School of Management. <p>&nbsp;<p> I am the Undergraduate Economics Programme Director, PhD convenor for the Economics Division, SGPE Summer School Director, and Member of the SES council. <p>&nbsp;<p> <p>&nbsp;<p> My research agenda seeks to use the tools of the applied econometrician to shine a light on how policy, institutions and individuals interact and how this has implications for the wellbeing of individuals and households. My work covers two broad headings: <p> Living Standards & Well-being, and Institutions & Political Economy"
           imageUrl: "/picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Hector Rufrancos
           buttons:
-            - name: research
+            - name: Research
               url: /research/
-            - name: teaching
+            - name: Teaching
               url: /teaching/
-            - name: cv
+            - name: CV
               url: /cv/
             - name: Keywords
               url: /tags/
