@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Using Economic Data for Causal Inference | Hector Rufrancos</title>
+<meta name="keywords" content="Causal inference, differences-in-differences, instrumental variables, DAG, regression discontinuity design, OLS">
+<meta name="description" content="This undergraduate course presents a crash course to OLS and an introduction to Causal Inference methods.">
+<meta name="author" content="Hector Rufrancos">
+<link rel="canonical" href="https://rufrancos.org/c1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d729995b0dd5d698d404eb03b9939bdf311b653add3fe098b89faabb64a7d7b.css" integrity="sha256-fXKZlbDdXWmNQE6wO5k5vfMRtlOt0/4Ji4n6q7ZKfXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://rufrancos.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://rufrancos.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://rufrancos.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://rufrancos.org/apple-touch-icon.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Using Economic Data for Causal Inference" />
+<meta property="og:description" content="This undergraduate course presents a crash course to OLS and an introduction to Causal Inference methods." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rufrancos.org/c1/" />
+<meta property="og:image" content="https://rufrancos.org/c1.png" /><meta property="article:section" content="teaching" />
+<meta property="article:published_time" content="2023-09-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-09-11T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://rufrancos.org/c1.png" />
+<meta name="twitter:title" content="Using Economic Data for Causal Inference"/>
+<meta name="twitter:description" content="This undergraduate course presents a crash course to OLS and an introduction to Causal Inference methods."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Teaching",
+      "item": "https://rufrancos.org/teaching/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Using Economic Data for Causal Inference",
+      "item": "https://rufrancos.org/c1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Using Economic Data for Causal Inference",
+  "name": "Using Economic Data for Causal Inference",
+  "description": "This undergraduate course presents a crash course to OLS and an introduction to Causal Inference methods.",
+  "keywords": [
+    "Causal inference", "differences-in-differences", "instrumental variables", "DAG", "regression discontinuity design", "OLS"
+  ],
+  "articleBody": "Introduction Welcome to ECNU3ED–Using Economic Data for Causal Inference a `Nobel-Prize-Winning endeavour™’. This is a rather unusual module that will introduced you to three things:\nThe workhorse model of Econometrics (OLS) Thinking about causality using Econometrics Statistical Programming using Stata This class is supported by DataCamp, an incredibly intuitive platform to learn R. They support education around the world for free via this initiative. Find out more here .\nModule Learning Outcomes On successful completion of the module, you should be able to:\nanalyse economic data using regression analysis and statistical inference, and critically interpret regression output; synthesise and communicate canonical causal research designs, with an emphasis on plausibility and application; demonstrate a professional working proficiency in data collection, cleaning, and analysis in using reproducible statistical programming packages; design and execute a causal evaluation of a real-world policy intervention and communicate the findings to a wide audience. Detailed Description Over the last 30 years, economics has undergone a credibility revolution. This moment has sought to move economics from theory to empirics. This work is grounded on the need for economic theory to be evidence based and consequently economists have sought to use causal inference fuelled by experiments and quasi-experimental methods to analyse policies. This module will arm you with the toolkit of the modern economist.\nThis module is in two halves. In the first, you’ll be given a grounding on linear regression with a strong emphasis on practical interpretation and use of ordinary least squares, the workhorse model of this module. In the second half of the module we focus on causality, and how this may be inferred using observational data.\nThe methods covered include:\ndirected acyclic graphs;\ninstrumental variables;\nregression discontinuity design; differences-in-differences.\nThe module also develops your skills by teaching statistical software. Many economics graduates and employers report that skills in data analysis are among the most important and regularly used of those needed by economists working in industry, or government. This module differs to others in as much as Statistical programming is not assumed to be mana from heaven and instead data cleaning and working with data are explicitly taught.\nCourse Outline This section gives a flavour for the reading list and pacing of the module each heading is covered in a single week. The suggested readings for each week are displayed below.\nStata Crash Course Over the first few weeks we will be doing a Stata Crash course, Stata (and to a lesser extent R) is the software we will use to do econometrics. But first we need to learn to use it.\nAsking Causal Questions Wooldridge 1 Mastering Metrics 1 Mixtape introduction The Effect 5 Correlation \u0026 Bivariate OLS Seeing Theory 6 Wooldridge 2 Mixtape 2 The Effect 13 Multiple regression Wooldridge 3 Mastering Metrics 3 Mixtape 2 The Effect 13 Statistical Inference in Regressions Wooldridge 4 The Effect 13 Functional Form \u0026 Dummy Variables Wooldridge 7; 6.1, 6.2, 9.1 The Effect 13 Violations of Gauss Markov \u0026 Careers talk Wooldridge Chp: 8, 9.4, 12 The Effect 13 Group Project Presentations \u0026 Directed Acyclic Graphs Mixtape 3 Fairness and Machine Learning 4 The Effect 6-9 Instrumental Variables Mastering Metrics 3 Wooldridge 15 Mixtape 7 The Effect 19 Regression Discontinuity Mastering Metrics 4 Mixtape 6 The Effect 20 Differences-in-differences Mastering Metrics 5 Mixtape 9 Wooldridge 13 Effect 16-18 ",
+  "wordCount" : "552",
+  "inLanguage": "en",
+  "image":"https://rufrancos.org/c1.png","datePublished": "2023-09-11T00:00:00Z",
+  "dateModified": "2023-09-11T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Hector Rufrancos"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://rufrancos.org/c1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hector Rufrancos",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rufrancos.org/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WMXYMP9HSZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WMXYMP9HSZ');
+</script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class=" dark" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://rufrancos.org/" accesskey="h" title="Hector Rufrancos">
+             
+                <img src="https://rufrancos.org/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Hector Rufrancos</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://rufrancos.org/research/" title="Research">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rufrancos.org/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rufrancos.org/cv/" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Using Economic Data for Causal Inference
+    </h1>
+    <div class="post-meta">&lt;span title=&#39;2023-09-11 00:00:00 &#43;0000 UTC&#39;&gt;September 2023&lt;/span&gt;&amp;nbsp;&amp;middot;&amp;nbsp;Hector Rufrancos&nbsp;&middot;&nbsp;<a href="https://canvas.stir.ac.uk/courses/13703" rel="noopener noreferrer" target="_blank">Stirling Canvas</a>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#module-learning-outcomes">Module Learning Outcomes</a></li>
+    <li><a href="#detailed-description">Detailed Description</a></li>
+    <li><a href="#course-outline">Course Outline</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>Welcome to ECNU3ED&ndash;Using Economic Data for Causal Inference a `Nobel-Prize-Winning endeavour™&rsquo;. This is a rather unusual module that will introduced you to three things:</p>
+<ol>
+<li>The workhorse model of Econometrics (OLS)</li>
+<li>Thinking about causality using Econometrics</li>
+<li>Statistical Programming using Stata</li>
+</ol>
+<p>This class is supported by DataCamp, an incredibly intuitive platform to learn R. They support education around the world for free via this initiative. Find out more <a href="https://datacamp.com/groups/education" target="_blank">here</a>
+.</p>
+<h2 id="module-learning-outcomes">Module Learning Outcomes<a hidden class="anchor" aria-hidden="true" href="#module-learning-outcomes">#</a></h2>
+<p>On successful completion of the module, you should be able to:</p>
+<ol>
+<li>analyse economic data using regression analysis and statistical inference, and critically interpret regression output;</li>
+<li>synthesise and communicate canonical causal research designs, with an emphasis on plausibility and application;</li>
+<li>demonstrate a professional working proficiency in data collection, cleaning, and analysis in using reproducible statistical programming packages;</li>
+<li>design and execute a causal evaluation of a real-world policy intervention and communicate the findings to a wide audience.</li>
+</ol>
+<h2 id="detailed-description">Detailed Description<a hidden class="anchor" aria-hidden="true" href="#detailed-description">#</a></h2>
+<p>Over the last 30 years, economics has undergone a credibility revolution. This moment has sought to move economics from theory to empirics. This work is grounded on the need for economic theory to be evidence based and consequently economists have sought to use causal inference fuelled by experiments and quasi-experimental methods to analyse policies. This module will arm you with the toolkit of the modern economist.</p>
+<p>This module is in two halves. In the first, you’ll be given a grounding on linear regression with a strong emphasis on practical interpretation and use of ordinary least squares, the workhorse model of this module. In the second half of the module we focus on causality, and how this may be inferred using observational data.</p>
+<p>The methods covered include:</p>
+<p>directed acyclic graphs;<br>
+instrumental variables;<br>
+regression discontinuity design;
+differences-in-differences.</p>
+<p>The module also develops your skills by teaching statistical software. Many economics graduates and employers report that skills in data analysis are among the most important and regularly used of those needed by economists working in industry, or government. This module differs to others in as much as Statistical programming is not assumed to be mana from heaven and instead data cleaning and working with data are explicitly taught.</p>
+<h2 id="course-outline">Course Outline<a hidden class="anchor" aria-hidden="true" href="#course-outline">#</a></h2>
+<p>This section gives a flavour for the reading list and pacing of the module each heading is covered in a single week. The suggested readings for each week are displayed below.</p>
+<h4 id="stata-crash-course">Stata Crash Course<a hidden class="anchor" aria-hidden="true" href="#stata-crash-course">#</a></h4>
+<p>Over the first few weeks we will be doing a Stata Crash course, Stata (and to a lesser extent R) is the software we will use to do econometrics. But first we need to learn to use it.</p>
+<h4 id="asking-causal-questions">Asking Causal Questions<a hidden class="anchor" aria-hidden="true" href="#asking-causal-questions">#</a></h4>
+<ul>
+<li>Wooldridge 1</li>
+<li>Mastering Metrics 1</li>
+<li><a href="https://mixtape.scunning.com/01-introduction" target="_blank">Mixtape introduction</a>
+</li>
+<li><a href="https://theeffectbook.net/ch-Identification.html" target="_blank">The Effect 5</a>
+</li>
+</ul>
+<h4 id="correlation--bivariate-ols">Correlation &amp; Bivariate OLS<a hidden class="anchor" aria-hidden="true" href="#correlation--bivariate-ols">#</a></h4>
+<ul>
+<li><a href="https://seeing-theory.brown.edu/regression-analysis/index.html" target="_blank">Seeing Theory 6</a>
+</li>
+<li>Wooldridge 2</li>
+<li><a href="https://mixtape.scunning.com/02-probability_and_regression" target="_blank">Mixtape 2</a>
+</li>
+<li><a href="https://theeffectbook.net/ch-StatisticalAdjustment.htmll" target="_blank">The Effect 13</a>
+</li>
+</ul>
+<h4 id="multiple-regression">Multiple regression<a hidden class="anchor" aria-hidden="true" href="#multiple-regression">#</a></h4>
+<ul>
+<li>Wooldridge 3</li>
+<li>Mastering Metrics 3</li>
+<li><a href="https://mixtape.scunning.com/02-probability_and_regression" target="_blank">Mixtape 2</a>
+</li>
+<li><a href="https://theeffectbook.net/ch-StatisticalAdjustment.htmll" target="_blank">The Effect 13</a>
+</li>
+</ul>
+<h4 id="statistical-inference-in-regressions">Statistical Inference in Regressions<a hidden class="anchor" aria-hidden="true" href="#statistical-inference-in-regressions">#</a></h4>
+<ul>
+<li>Wooldridge 4</li>
+<li><a href="https://theeffectbook.net/ch-StatisticalAdjustment.htmll" target="_blank">The Effect 13</a>
+</li>
+</ul>
+<h4 id="functional-form--dummy-variables">Functional Form &amp; Dummy Variables<a hidden class="anchor" aria-hidden="true" href="#functional-form--dummy-variables">#</a></h4>
+<ul>
+<li>Wooldridge 7; 6.1, 6.2, 9.1</li>
+<li><a href="https://theeffectbook.net/ch-StatisticalAdjustment.htmll" target="_blank">The Effect 13</a>
+</li>
+</ul>
+<h4 id="violations-of-gauss-markov--careers-talk">Violations of Gauss Markov &amp; Careers talk<a hidden class="anchor" aria-hidden="true" href="#violations-of-gauss-markov--careers-talk">#</a></h4>
+<ul>
+<li>Wooldridge Chp: 8, 9.4, 12</li>
+<li><a href="https://theeffectbook.net/ch-StatisticalAdjustment.htmll" target="_blank">The Effect 13</a>
+</li>
+</ul>
+<h4 id="group-project-presentations--directed-acyclic-graphs">Group Project Presentations &amp; Directed Acyclic Graphs<a hidden class="anchor" aria-hidden="true" href="#group-project-presentations--directed-acyclic-graphs">#</a></h4>
+<ul>
+<li><a href="https://mixtape.scunning.com/03-directed_acyclical_graphs" target="_blank">Mixtape 3</a>
+</li>
+<li><a href="https://fairmlbook.org/causal.html" target="_blank">Fairness and Machine Learning 4</a>
+</li>
+<li><a href="https://theeffectbook.net/ch-CausalDiagrams.html" target="_blank">The Effect 6-9</a>
+</li>
+</ul>
+<h4 id="instrumental-variables">Instrumental Variables<a hidden class="anchor" aria-hidden="true" href="#instrumental-variables">#</a></h4>
+<ul>
+<li>Mastering Metrics 3</li>
+<li>Wooldridge 15</li>
+<li><a href="https://mixtape.scunning.com/07-instrumental_variables" target="_blank">Mixtape 7</a>
+</li>
+<li><a href="https://theeffectbook.net/ch-InstrumentalVariables.html" target="_blank">The Effect 19</a>
+</li>
+</ul>
+<h4 id="regression-discontinuity">Regression Discontinuity<a hidden class="anchor" aria-hidden="true" href="#regression-discontinuity">#</a></h4>
+<ul>
+<li>Mastering Metrics 4</li>
+<li><a href="https://mixtape.scunning.com/06-regression_discontinuity" target="_blank">Mixtape 6</a>
+</li>
+<li><a href="https://theeffectbook.net/ch-RegressionDiscontinuity.html" target="_blank">The Effect 20</a>
+</li>
+</ul>
+<h4 id="differences-in-differences">Differences-in-differences<a hidden class="anchor" aria-hidden="true" href="#differences-in-differences">#</a></h4>
+<ul>
+<li>Mastering Metrics 5</li>
+<li><a href="https://mixtape.scunning.com/09-difference_in_differences" target="_blank">Mixtape 9</a>
+</li>
+<li>Wooldridge 13</li>
+<li><a href="https://theeffectbook.net/ch-FixedEffects.html" target="_blank">Effect 16-18</a>
+</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://rufrancos.org/tags/causal-inference/">Causal inference</a></li>
+      <li><a href="https://rufrancos.org/tags/differences-in-differences/">differences-in- differences</a></li>
+      <li><a href="https://rufrancos.org/tags/instrumental-variables/">instrumental variables</a></li>
+      <li><a href="https://rufrancos.org/tags/dag/">DAG</a></li>
+      <li><a href="https://rufrancos.org/tags/regression-discontinuity-design/">regression discontinuity design</a></li>
+      <li><a href="https://rufrancos.org/tags/ols/">OLS</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

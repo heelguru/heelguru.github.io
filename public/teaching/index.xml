@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Teaching on Hector Rufrancos</title>
+    <link>https://rufrancos.org/teaching/</link>
+    <description>Recent content in Teaching on Hector Rufrancos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rufrancos.org/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Economic Data for Causal Inference</title>
+      <link>https://rufrancos.org/c1/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rufrancos.org/c1/</guid>
+      <description>This undergraduate course presents a crash course to OLS and an introduction to Causal Inference methods.</description>
+    </item>
+    
+    <item>
+      <title>Research Methods in Economics</title>
+      <link>https://rufrancos.org/c2/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rufrancos.org/c2/</guid>
+      <description>This undergraduate module prepares students to write an original piece of research from scratch. </description>
+    </item>
+    
+    <item>
+      <title>Workshops</title>
+      <link>https://rufrancos.org/c3/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rufrancos.org/c3/</guid>
+      <description>This is a list of the workshops I have delivered in the past.</description>
+    </item>
+    
+    <item>
+      <title>Previously at University of Sussex</title>
+      <link>https://rufrancos.org/c4/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rufrancos.org/c4/</guid>
+      <description>A List of Old Courses I taught previously at Sussex.</description>
+    </item>
+    
+  </channel>
+</rss>

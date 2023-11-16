@@ -59,6 +59,8 @@ params:
               url: /teaching/
             - name: CV
               url: /cv/
+            - name: News
+              url: /news/
             - name: Keywords
               url: /tags/
 
