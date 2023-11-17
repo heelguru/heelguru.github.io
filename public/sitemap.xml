@@ -65,24 +65,6 @@
     <loc>https://rufrancos.org/tags/writing-papers/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rufrancos.org/news/13/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/tags/news/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/12/</loc>
-    <lastmod>2023-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/11/</loc>
-    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/10/</loc>
-    <lastmod>2023-04-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rufrancos.org/tags/demography/</loc>
     <lastmod>2023-03-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -122,9 +104,6 @@
     <loc>https://rufrancos.org/9/</loc>
     <lastmod>2023-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rufrancos.org/news/9/</loc>
-    <lastmod>2023-01-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rufrancos.org/tags/africa/</loc>
     <lastmod>2023-01-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -157,33 +136,6 @@
   </url><url>
     <loc>https://rufrancos.org/tags/nutrition/</loc>
     <lastmod>2022-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/8/</loc>
-    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/7/</loc>
-    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/6/</loc>
-    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/5/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/4/</loc>
-    <lastmod>2022-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/3/</loc>
-    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/2/</loc>
-    <lastmod>2021-06-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/1/</loc>
-    <lastmod>2021-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rufrancos.org/news/0/</loc>
-    <lastmod>2021-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rufrancos.org/tags/cases/</loc>
     <lastmod>2021-06-08T00:00:00+00:00</lastmod>
@@ -270,6 +222,8 @@
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rufrancos.org/location/</loc>
+  </url><url>
+    <loc>https://rufrancos.org/news/</loc>
   </url><url>
     <loc>https://rufrancos.org/officehours/</loc>
   </url>
