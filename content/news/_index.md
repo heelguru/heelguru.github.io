@@ -4,6 +4,15 @@ description: "Updates"
 url: /news/
 ---
 
+## 25-04-24
+I successfully oversaw the change of UG Programme from a BA to a BSc and the quinquennial L&T review 
+
+## 23-04-24
+My paper 'How hungry were the poor in late 1930s Britain?' was one of the top 10 most cited papers in the Economic History Review last year
+
+## 17-04-24
+I presented the pollution and labour supply paper at the Scottish Economic Society
+
 ## 17-11-23
 I was appointed SGPE MSc Dissertation Coordinator
 
