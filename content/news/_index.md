@@ -3,6 +3,11 @@ title: "News"
 description: "Updates"
 url: /news/
 ---
+## 08-05-24
+Willem Sas and I presented the paper on the Evolution of Devolution during COVID19 at the Scotland/ Northern England (SaNE) Applied Micro Workshop hosted by St Andrews in Crieff. 
+
+## 01-05-24
+I was awarded £13.5k by the Carnegie Trust to investigate the role of austerity on food bank usage in the UK.
 
 ## 25-04-24
 I successfully oversaw the change of UG Programme from a BA to a BSc and the quinquennial L&T review 
