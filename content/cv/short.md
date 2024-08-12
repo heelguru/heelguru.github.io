@@ -25,6 +25,7 @@ You can access my CV [here](/cv.pdf) [Last updated 31 July 2023]
 Senior Lecturer (Associate Professor) in Economics, University of Stirling, 2023-Present
 Global Labor Organization Research Fellow, 2019-Present
 PhD Co-Director, Scottish Graduate Programme in Economics, 2022-2023
+PhD Director, Scottish Graduate Programme in Economics, 2024-Present
 Summer School Director, Scottish Graduate Programme in Economics, 2023-Present
 Economics Pathway Convenor, Scottish Graduate School of Social Sciences, 2022-2023 
 ## Education
@@ -37,7 +38,7 @@ MSc Development Economics, University of Sussex, 2010
 BA Economics with Development Studies, University of Sussex, 2009
 
 ## Recent and Scheduled Presentations
-
++ ThreeSANE (Scotland and North England Applied Micro Workshop University of St Andrews, Crieff, 2024)
 + WIDER Seminar, 2023, UNU-WIDER, Helsinki, Finland
 + Economics Department Seminar University of Strathclyde, 2022, Glasgow, Scotland
 + Scottish Economic Society Conference 2022, University of Glasgow, Scotland
@@ -49,6 +50,7 @@ BA Economics with Development Studies, University of Sussex, 2009
 + European Social Science History Conference 2018, Queen's University Belfast, Northern Ireland
 
 ## Departmental Service
-
++ MSc Dissertation coordinator, SGPE, 2023-Present
++ Summer School Director, SGPE, 2022-Present
 + PhD Convenor, Economics Division, Stirling School of Management, 2019–Present
-+ BA (Hons) Economics Programme Director, 2023–Present
++ BSc Economics Programme Director, 2023–Present

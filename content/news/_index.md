@@ -3,6 +3,10 @@ title: "News"
 description: "Updates"
 url: /news/
 ---
+## 05-8-24
+I was appointed the SGPE PhD Director.
+## 01-07-24
+I hosted Scott Cunningham (Baylor) in the 3rd annual SGPE Summer School on Causal inference at the University of Stirling.
 ## 08-05-24
 Willem Sas and I presented the paper on the Evolution of Devolution during COVID19 at the Scotland/ Northern England (SaNE) Applied Micro Workshop hosted by St Andrews in Crieff. 
 
