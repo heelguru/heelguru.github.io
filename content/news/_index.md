@@ -3,13 +3,25 @@ title: "News"
 description: "Updates"
 url: /news/
 ---
-## 05-8-24
+## 19-06-25
+I am one of the local organisers of the 9th Annual Economics of Organised Crime workshop to be jointly hosted between University of Edinburgh and University of Stirling
+## 07-05-25
+I presented at FourSaNE the 4th Scotland / North England Applied Economics Workshop
+## 07-04-25
+I presented at the annual meeting of the Scottish Economic Society
+## 25-03-25
+I was one of the organisers of the first SES Discover Economics in Scotland Event held at the university of Stirling where we hosted 140+ secondary school students
+## 08-01-25
+I organised the SGPE PhD conference at Crieff
+
+## 05-08-24
 I was appointed the SGPE PhD Director.
+
 ## 01-07-24
 I hosted Scott Cunningham (Baylor) in the 3rd annual SGPE Summer School on Causal inference at the University of Stirling.
+
 ## 08-05-24
 Willem Sas and I presented the paper on the Evolution of Devolution during COVID19 at the Scotland/ Northern England (SaNE) Applied Micro Workshop hosted by St Andrews in Crieff. 
-
 ## 01-05-24
 I was awarded £13.5k by the Carnegie Trust to investigate the role of austerity on food bank usage in the UK.
 
